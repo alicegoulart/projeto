@@ -17,11 +17,11 @@ Procedimento:
 
 ### AMPOP Lm324N circuito e gráfico de Vout.
 
-![BufferLM324N](/Imagens/parte1/BufferLM324N.png)
+![BufferLM324N.png](/Imagens/parte1/BufferLM324N.png)
 
 ### AMPOP TL082 circuito e gráfico de Vout.
 
-![BufferTL082](/Imagens/parte1/BufferTL082.jpg)
+![BufferTL082.jpg](/Imagens/parte1/BufferTL082.jpg)
 
 ## Conclusão.
 
