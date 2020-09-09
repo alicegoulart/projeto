@@ -76,7 +76,7 @@ Com isso, fica claro que para cada projeto a ser executado deve-se tem em mente 
 
 
 
-Parte 03: Amplificador não-inversor
+##Parte 03: Amplificador não-inversor
 
 Objetivo específico: Medir o ganho de um amplificador não-inversor.
 
@@ -111,7 +111,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 
-Parte 04: Amplificador subtrator.
+##Parte 04: Amplificador subtrator.
 
 Objetivo específico: verificar as não idealidades dos ampops aplicadas em um circuito subtrator.
 
@@ -120,3 +120,23 @@ Experimento: Utilizando um Amp.OP. Lm324N e o TL082 monte dois amplificadores su
 use o resistor de realimentação com valor 510kΩ e ganho igual á 10V/V.
 
 Utilize a alimentação simétrica de +/-12V. (limite a corrente em 0,05A)
+
+
+## Análise teórica.
+
+![Subtrator](/Imagens/parte1/subtrator.JPG)
+
+### AMPOP LM324N circuito e gráfico de Vin e Vout.
+
+![InvesorLM324N](/Imagens/parte1/subtratorLM324N.JPG)
+
+
+
+### AMPOP TL082 circuito e gráfico de Vin e Vout.
+
+![subtratorTL082](/Imagens/parte1/subtratorTL082.JPG)
+
+
+## Conclusão.
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
