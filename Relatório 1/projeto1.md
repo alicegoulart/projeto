@@ -17,7 +17,7 @@ Procedimento:
 
 ### AMPOP Lm324N circuito e gráfico de Vout.
 
-![BufferLM324N.PNG](/Imagens/parte1/BufferLM324N.PNG)
+![nãoinversor](/Imagens/parte1/BufferLM324N.PNG)
 
 ### AMPOP TL082 circuito e gráfico de Vout.
 
@@ -67,28 +67,56 @@ Procedimento:
 
 ## Conclusão.
 Diante do que foi analisado pode-se verificar que o valor de ganho foi de -10, sendo assim a tensão de entrada deverá ficar dez vezes maior e com a senoide invertida e de fato ocorreu na Análise gráfica.
+
 Já quanto a saturação dos dois ampops verificou-se que ambos tem limites de 12V, pois é a tensão de alimentação desde. Partindo da analise individual se verificou que o LM324N tem como valor máximo para saturação -11.33V para a parte da onda negativa e 10.77V para a parte da onda positiva.
+
 O TL082 apresentou valores de saturação diferentes do LM324N,mas estes valores foram iguais para a parte positiva e negativa da curva sendo estes de +-10.44V.
+
 Com isso, fica claro que para cada projeto a ser executado deve-se tem em mente a distinção entre os componentes e que estes podem apresentar valores diferentes de tensão para a parte negativa e positiva quando em saturação.
 
+
+
 Parte 03: Amplificador não-inversor
-1
+
 Objetivo específico: Medir o ganho de um amplificador não-inversor.
+
 Experimento: Utilizando um Amp.OP. Lm324N e o TL082 monte dois amplificadores não inversores
 use o resistor de realimentação com valor 20 kΩ e o outro resistor igual à 2kΩ.
 Utilize a alimentação simétrica de +/-12V. (limite a corrente em 0,05A)
 Procedimento:
-1. Monte o circuito em uma matriz de contatos (protoboard) e antes de ligar as fontes chame
-o professor.
-2. Configure no gerador de função um sinal senoidal com 0,5Vp @ 1 kHz e mostre o mesmo
-no canal 1 do osciloscópio.
-3. Mostre a saída do amplificador no canal 2 do osciloscópio e chame o professor novamente
-e mostre os resultados.
-4. Verifique o valor do ganho obtido;
-5. .
-6. Qual o valor da queda de tensão com relação a tensão de alimentação?
-Parte 04: Amplificador subtrator
+
+1. Monte o circuito no LTSPICE.
+2. Configure a fonte de tensão de entrada senoidal com 0,5Vp @ 1 kHz.
+3. Verifique o valor do ganho obtido;
+4. Qual o valor da queda de tensão com relação a tensão de alimentação?
+
+## Análise teórica.
+
+![nãoinversor](/Imagens/parte1/nãoinversor.JPG)
+
+### AMPOP LM324N circuito e gráfico de Vin e Vout.
+
+![InvesorLM324N](/Imagens/parte1/nãoinversoraLM324N.JPG)
+
+
+
+### AMPOP TL082 circuito e gráfico de Vin e Vout.
+
+![nãonversoraTL082](/Imagens/parte1/nãoinversoraTL082.JPG)
+
+
+## Conclusão.
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+Parte 04: Amplificador subtrator.
+
 Objetivo específico: verificar as não idealidades dos ampops aplicadas em um circuito subtrator.
-Experimento: Utilizando um Amp.OP. Lm324N e o TL082 monte dois amplificadores subtratores
+
+Experimento: Utilizando um Amp.OP. Lm324N e o TL082 monte dois amplificadores subtratores.
+
 use o resistor de realimentação com valor 510kΩ e ganho igual á 10V/V.
+
 Utilize a alimentação simétrica de +/-12V. (limite a corrente em 0,05A)
