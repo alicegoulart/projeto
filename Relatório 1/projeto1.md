@@ -13,6 +13,13 @@ Procedimento:
 2. Configure a fonte com sinal senoidal com 0,5Vp @ 1 kHz e mostre o mesmo e analise o gráfico gerado.
 3. Discuta os resultados.
 
+# ANÁLISE TEÓRICA.
+
+## AMPOP Lm324N.
+
+![Buffer LM324N](\Imagens\Relatório1)
+
+
 Parte 02: Amplificador inversor
 Objetivo específico: Medir o ganho de um amplificador inversor e verificar o efeito da saturação.
 Experimento: Utilizando um Amp.OP. Lm324N e o TL082 monte dois amplificadores inversores utilize o resistor de realimentação com valor 20 kΩ e a resistência de entrada de 2kΩ.
