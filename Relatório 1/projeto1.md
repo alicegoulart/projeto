@@ -39,13 +39,33 @@ Experimento: Utilizando um Amp.OP. Lm324N e o TL082 monte dois amplificadores in
 Utilize a alimentação simétrica de +/-12V. (limite a corrente em 0,05A)
 Procedimento:
 1. Monte o circuito no LTSPICE.
-2. Configure a fonte de entrada com sinal senoidal com 0,5Vp @ 1 kHz e analise o gráfico gerado.
-3. Analise o gráfico obtido
+2. Configure a fonte de entrada com sinal senoidal com 0,5Vp @ 1 kHz.
+3. Analise o gráfico obtido.
 4. Verifique o valor do ganho obtido;
-5. Aumente o valor da tensão de entrada lentamente e verifique para qual valor da tensão de
-entrada ocorre à saturação do sinal.
+5. Aumente o valor da tensão de entrada lentamente e verifique para qual valor da tensão de entrada ocorre à saturação do sinal.
 6. Qual o valor da queda de tensão com relação a tensão de alimentação?
 7. Não desmonte o circuito!!
+
+## Análise teórica.
+
+![InvesorLM324N](/Imagens/parte1/Inversora.JPG)
+
+### AMPOP LM324N circuito e gráfico de Vin e Vout.
+
+![InvesorLM324N](/Imagens/parte1/InversorLM324N.JPG)
+
+### Saturação do circuito LM324N.
+
+![InvesorLM324N](/Imagens/parte1/saturaçãoinversoraLM324N.JPG)
+
+### AMPOP TL082 circuito e gráfico de Vin e Vout.
+
+![InversorTL082.JPG](/Imagens/parte1/InversorTL082.JPG)
+
+### Saturação do circuito TL082.
+![InversorTL082.JPG](/Imagens/parte1/saturaçãoinversoraTL082.JPG)
+
+## Conclusão.
 
 Parte 03: Amplificador não-inversor
 1
