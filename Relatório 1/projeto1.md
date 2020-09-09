@@ -13,15 +13,19 @@ Procedimento:
 2. Configure a fonte com sinal senoidal com 0,5Vp @ 1 kHz e mostre o mesmo e analise o gráfico gerado.
 3. Discuta os resultados.
 
-# ANÁLISE TEÓRICA.
+## ANÁLISE TEÓRICA.
 
-## AMPOP Lm324N circuito e gráfico de Vout.
+### AMPOP Lm324N circuito e gráfico de Vout.
 
-![BufferLM324N](/Relatório 1/Imagens/parte1/BufferLM324N.png)
+![BufferLM324N](/Imagens/parte1/BufferLM324N.png)
 
-## AMPOP TL082 circuito e gráfico de Vout.
+### AMPOP TL082 circuito e gráfico de Vout.
 
-![BufferTL082](/Relatório 1/Imagens/parte1/BufferTL082.jpg)
+![BufferTL082](/Imagens/parte1/BufferTL082.jpg)
+
+##CONCLUSÃO.
+Sabendo-se que o ganho para a topologia Buffer tem ganho igual a 1 fez-se a análise com dois modelos de AMPOP Lm324N e TL082 e se constatou que de fato não houve ganho de tensão na sa´da Vout.
+sendo assim, foi verificado que este modelo pode ser usado para isolar e conectar um estágio de alta impedância de entrada a uma carga de baixa impedância de saída sendo este conhecido também como casador de impedâncias
 
 
 
