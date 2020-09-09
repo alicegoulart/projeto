@@ -32,7 +32,7 @@ sendo assim, foi verificado que este modelo pode ser usado para isolar e conecta
 
 
 
-Parte 02: Amplificador inversor
+## Parte 02: Amplificador inversor
 
 Objetivo específico: Medir o ganho de um amplificador inversor e verificar o efeito da saturação.
 Experimento: Utilizando um Amp.OP. Lm324N e o TL082 monte dois amplificadores inversores utilize o resistor de realimentação com valor 20 kΩ e a resistência de entrada de 2kΩ.
@@ -76,7 +76,7 @@ Com isso, fica claro que para cada projeto a ser executado deve-se tem em mente 
 
 
 
-##Parte 03: Amplificador não-inversor
+## Parte 03: Amplificador não-inversor
 
 Objetivo específico: Medir o ganho de um amplificador não-inversor.
 
@@ -111,7 +111,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 
-##Parte 04: Amplificador subtrator.
+## Parte 04: Amplificador subtrator.
 
 Objetivo específico: verificar as não idealidades dos ampops aplicadas em um circuito subtrator.
 
@@ -135,6 +135,31 @@ Utilize a alimentação simétrica de +/-12V. (limite a corrente em 0,05A)
 ### AMPOP TL082 circuito e gráfico de Vin e Vout.
 
 ![subtratorTL082](/Imagens/parte1/subtratorTL082.JPG)
+
+Procedimento:
+1. Monte o circuito no LTSPICE.
+2. Compare os resultados para o LM324N e para TL082.
+3. Caso a fonte V1 tenha o valor igual á 0(zero)V, qual o valor da tensão de saída, para ambos os circuitos? Explique.
+4. Caso o seja alterado para o circuito abaixo, existe alguma variação na saída? Explique.
+5. Justifique as dissimilaridades encontradas utilizando os dados do datasheet.
+
+
+### V1 igual a zero LM324N.
+
+
+### V1 igual a zero TL082.
+
+
+
+### Alteração do circuito com LM324N.
+![InvesorLM324N](/Imagens/parte1/subtrator2LM324N.JPG)
+
+
+### Alteração do circuito com TL082.
+
+![subtratorTL082](/Imagens/parte1/subtrator2TL082.JPG)
+
+
 
 
 ## Conclusão.
