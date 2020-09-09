@@ -10,10 +10,10 @@ Experimento: Utilizando um Amp.OP. Lm324N e um TL082 monte dois circuitos na con
 Utilize a alimentação simétrica de +/-12V. (limite a corrente em 0,05A)
 Procedimento:
 1. Monte o circuito no LTSPICE.
-2. Configure a fonte com sinal senoidal com 0,5Vp @ 1 kHz e mostre o mesmo e analise o gráfico gerado.
+2. Configure a fonte com sinal senoidal com 0,5Vp @ 1 kHz e analise o gráfico gerado.
 3. Discuta os resultados.
 
-## ANÁLISE TEÓRICA.
+## Análise teórica.
 
 ### AMPOP Lm324N circuito e gráfico de Vout.
 
@@ -23,19 +23,23 @@ Procedimento:
 
 ![BufferTL082](/Imagens/parte1/BufferTL082.jpg)
 
-##CONCLUSÃO.
-Sabendo-se que o ganho para a topologia Buffer tem ganho igual a 1 fez-se a análise com dois modelos de AMPOP Lm324N e TL082 e se constatou que de fato não houve ganho de tensão na sa´da Vout.
+## Conclusão.
+
+Sabendo-se que o ganho para a topologia Buffer tem ganho igual a 1 fez-se a análise com dois modelos de AMPOP Lm324N e TL082 e se constatou que de fato não houve ganho de tensão na saída Vout.
 sendo assim, foi verificado que este modelo pode ser usado para isolar e conectar um estágio de alta impedância de entrada a uma carga de baixa impedância de saída sendo este conhecido também como casador de impedâncias
 
 
 
+
+
 Parte 02: Amplificador inversor
+
 Objetivo específico: Medir o ganho de um amplificador inversor e verificar o efeito da saturação.
 Experimento: Utilizando um Amp.OP. Lm324N e o TL082 monte dois amplificadores inversores utilize o resistor de realimentação com valor 20 kΩ e a resistência de entrada de 2kΩ.
 Utilize a alimentação simétrica de +/-12V. (limite a corrente em 0,05A)
 Procedimento:
 1. Monte o circuito no LTSPICE.
-2. Configure a fonte de entrada com sinal senoidal com 0,5Vp @ 1 kHz e mostre o mesmo e analise o gráfico gerado.
+2. Configure a fonte de entrada com sinal senoidal com 0,5Vp @ 1 kHz e analise o gráfico gerado.
 3. Analise o gráfico obtido
 4. Verifique o valor do ganho obtido;
 5. Aumente o valor da tensão de entrada lentamente e verifique para qual valor da tensão de
