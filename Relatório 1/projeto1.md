@@ -66,6 +66,10 @@ Procedimento:
 ![InversorTL082.JPG](/Imagens/parte1/saturaçãoinversoraTL082.JPG)
 
 ## Conclusão.
+Diante do que foi analisado pode-se verificar que o valor de ganho foi de -10, sendo assim a tensão de entrada deverá ficar dez vezes maior e com a senoide invertida e de fato ocorreu na Análise gráfica.
+Já quanto a saturação dos dois ampops verificou-se que ambos tem limites de 12V, pois é a tensão de alimentação desde. Partindo da analise individual se verificou que o LM324N tem como valor máximo para saturação -11.33V para a parte da onda negativa e 10.77V para a parte da onda positiva.
+O TL082 apresentou valores de saturação diferentes do LM324N,mas estes valores foram iguais para a parte positiva e negativa da curva sendo estes de +-10.44V.
+Com isso, fica claro que para cada projeto a ser executado deve-se tem em mente a distinção entre os componentes e que estes podem apresentar valores diferentes de tensão para a parte negativa e positiva quando em saturação.
 
 Parte 03: Amplificador não-inversor
 1
