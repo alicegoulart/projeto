@@ -1,4 +1,11 @@
-# RELATÓRIO 1
+#Instituto Federal de Santa Catarina - Campus Florianópolis Departamento Acadêmico de Eletrônica Curso de Engenharia Eletrônica
+
+Alunos:
+
+*Luís André G. da Silva
+
+Relatório sobre Circuitos com Amplificadores Operacionais
+
 ## Objetivos.
 
 Estudo das características de um amplificador operacional não ideal e de um circuito amplificador subtrator.
@@ -32,7 +39,7 @@ sendo assim, foi verificado que este modelo pode ser usado para isolar e conecta
 
 
 
-## Parte 02: Amplificador inversor
+### Parte 02: Amplificador inversor
 
 Objetivo específico: Medir o ganho de um amplificador inversor e verificar o efeito da saturação.
 Experimento: Utilizando um Amp.OP. Lm324N e o TL082 monte dois amplificadores inversores utilize o resistor de realimentação com valor 20 kΩ e a resistência de entrada de 2kΩ.
@@ -76,7 +83,7 @@ Com isso, fica claro que para cada projeto a ser executado deve-se tem em mente 
 
 
 
-## Parte 03: Amplificador não-inversor
+### Parte 03: Amplificador não-inversor
 
 Objetivo específico: Medir o ganho de um amplificador não-inversor.
 
@@ -111,7 +118,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 
-## Parte 04: Amplificador subtrator.
+### Parte 04: Amplificador subtrator.
 
 Objetivo específico: verificar as não idealidades dos ampops aplicadas em um circuito subtrator.
 
