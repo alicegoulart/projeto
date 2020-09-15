@@ -56,8 +56,17 @@ Adicione um circuito para medir a corrente. Lembre-se na aula anterior foi estud
 O que são?
 
 Em eletrônica, um shunt é um dispositivo que cria um caminho de baixa resistência para a corrente elétrica, permitindo que ela passe em outro ponto do circuito. A origem do termo está no verbo 'desviar' que significa virar-se ou seguir um caminho diferente.
-fonte: https://en.wikipedia.org/wiki/Shunt_(electrical).
+fonte: <https://en.wikipedia.org/wiki/Shunt_(electrical)>.
 
 2- Como determinar o valor do resistor para o circuito?
 
-#por fazer!!!!
+
+Uma resistência shunt tem um valor muito pequeno, mas precisa de resistência e pode ser utilizado para determinar a corrente através de uma carga . O resistor é colocado em série com a carga . A resistência é muito pequena , de modo que a maior parte da corrente passa para a carga . A corrente pode ser determinada por medição da queda de tensão através da resistência de derivação em seguida, utilizando a lei de Ohm para calcular a corrente através do shunt .
+
+1-Encontre o máximo de corrente que vai passar pelo resistor. Na maioria dos casos isso será determinado pelas necessidades atuais da carga.
+
+2-Encontre o valor do resistor shunt quando você sabe a corrente máxima . Isso não é tão simples como parece. Se a resistência for demasiado alta , a queda de tensão através da resistência será demasiado elevado , tendo o poder de distância a partir da carga . Se a resistência for muito baixa , a tensão através da resistência de derivação é demasiado baixo , fazendo com que a medição seja menos precisa . Como regra geral , evitar a queda mais do que 1 por cento de tensão através da resistência de derivação . Por exemplo , se a corrente de carga máxima é de 1A a 10 volts , não mais do que 0,1 V deve ser eliminada através da resistência de derivação em corrente máxima . O valor do resistor shunt deve ser R = Vs /I = .1V/1A = 0,1 ohm, onde Vs é a queda de tensão através do resistor shunt .
+
+3-Calcule a dissipação de energia necessária para a resistência . O resistor de derivação deve ser capaz de passar a corrente máxima, para a tensão nominal sem sobreaquecer ou queimando -se . Para calcular a potência em watts , multiplique a corrente máxima ao quadrado pela resistência shunt P = I x I x R. Para o exemplo no passo 2, a dissipação de potência será P = 1 x 1 x 0,1 = 0,1 Watt . < Br >
+
+fonte:<http://ptcomputador.com/Ferragens/computer-drives-storage/49366.html#:~:text=Como%20regra%20geral%20%2C%20evitar%20a,R%20%3D%20Vs%20%2FI%20%3D%20>
