@@ -55,4 +55,9 @@ Adicione um circuito para medir a corrente. Lembre-se na aula anterior foi estud
 1-Pesquise sobre resistores shunt, respondendo as perguntas:
 O que são?
 
+Em eletrônica, um shunt é um dispositivo que cria um caminho de baixa resistência para a corrente elétrica, permitindo que ela passe em outro ponto do circuito. A origem do termo está no verbo 'desviar' que significa virar-se ou seguir um caminho diferente.
+fonte: https://en.wikipedia.org/wiki/Shunt_(electrical).
+
 2- Como determinar o valor do resistor para o circuito?
+
+#por fazer!!!!
