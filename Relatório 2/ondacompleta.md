@@ -70,4 +70,4 @@ fonte: Internet.
 
 ![tensaomaxeficmedcarga220](/Imagens/parte2/tabelacomderivacao.JPG)
 
-Obs. os valores de tensão no secundário 1 e dois foram anotados para o mesmo tempo, desta forma eles possuem valores iguais com sinais diferentes.
+Obs. os valores de tensão no secundário 1 e 2 foram anotados para o mesmo tempo, desta forma eles possuem valores iguais com sinais diferentes.
