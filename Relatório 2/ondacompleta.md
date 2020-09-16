@@ -15,7 +15,7 @@ presença destes elementos.
 Em todos os circuitos verifique a tensão reversa nos diodos e a corrente média e máxima
 nos diodos.
 
-Parte 02: Circuito Retificador de Onda Completa.
+### Parte 02: Circuito Retificador de Onda Completa.
 
 Monte o circuito retificador de onda completa em ponte usando transformador, conforme mostrado nas Figuras 3 e 4. Anote os valores solicitados na Tabela 1.
 
@@ -38,3 +38,36 @@ fonte: wikipedia
 ### Resultados gerais.
 
 ![tensaomaxeficmedcarga220](/Imagens/parte2/tabelaondacompleta.JPG)
+
+### Parte 03: Circuito Retificador de Onda Completa com Transformador em Derivação
+O circuito a ser montado a seguir é o retificador de onda completa usando transformador com derivação central (center tap), mostrado nas Figuras 5 e 6. Os dados solicitados devem ser anotados na Tabela 2.
+
+![tensaomaxeficmedcarga220](/Imagens/parte2/ondacompletacomderivacao.JPG)
+fonte: Internet.
+
+### Resultados.
+
+ ### Tensão de pico, eficaz e média retificador com derivação no secundário 1 do transformador.
+
+![secundário 1](/Imagens/parte2/secundario1.JPG)
+
+### Tensão de pico, eficaz e média retificador com derivação no secundário 2 do transformador.
+
+![secundário 2](/Imagens/parte2/secundario2.JPG)
+
+### Tensão de pico, eficaz e média na  carga retificador com derivação.
+
+![secundário 2](/Imagens/parte2/tensaocomderivacaocarga.JPG)
+
+
+### tensão de pico, eficaz e média na carga com capacitor de 220u.
+![tensaomaxeficmedcarga220](/Imagens/parte2/tensaocomderivacaocarga220u.JPG)
+
+### tensão de pico, eficaz e média na carga com capacitor de 1000u.
+![tensaomaxeficmedcarga220](/Imagens/parte2/tensaocomderivacaocarga1000u.JPG)
+
+### Resultados gerais.
+
+![tensaomaxeficmedcarga220](/Imagens/parte2/tabelacomderivacao.JPG)
+
+Obs. os valores de tensão no secundário 1 e dois foram anotados para o mesmo tempo, desta forma eles possuem valores iguais com sinais diferentes.
