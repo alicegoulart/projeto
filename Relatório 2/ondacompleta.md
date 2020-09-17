@@ -30,14 +30,14 @@ fonte: wikipedia
 ![tensão de pico efica e média](/Imagens/parte2/ondacompletapicoeficazmedia..JPG)
 
 ### tensão de pico, eficaz e média na carga com capacitor de 220u.
-![tensaomaxeficmedcarga220](/Imagens/parte2/tensaomaxeficmedcarga220u.JPG)
+![tensaomaxeficmedcarga220](/Imagens/parte2/tensaomaxeficmedcarga220u1.JPG)
 
 ### tensão de pico, eficaz e média na carga com capacitor de 1000u.
-![tensaomaxeficmedcarga220](/Imagens/parte2/tensaomaxeficmedcarga1000u.JPG)
+![tensaomaxeficmedcarga1000u](/Imagens/parte2/tensaomaxeficmedcarga1000u1.JPG)
 
 ### Resultados gerais.
 
-![tensaomaxeficmedcarga220](/Imagens/parte2/tabelaondacompleta.JPG)
+![tabela onda completa](/Imagens/parte2/tabelaondacompleta.JPG)
 
 ### Parte 03: Circuito Retificador de Onda Completa com Transformador em Derivação
 O circuito a ser montado a seguir é o retificador de onda completa usando transformador com derivação central (center tap), mostrado nas Figuras 5 e 6. Os dados solicitados devem ser anotados na Tabela 2.
