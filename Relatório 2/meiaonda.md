@@ -20,11 +20,11 @@ Fonte:internet.
 ### Resultados.
  ### tensão de pico, eficaz e média no secundário.
 
-![tensão de pico no secundário](/Imagens/parte2/tensaoeficmedsecundario.JPG)
+![tensão de pico no secundário](/Imagens/parte2/tensaopicoeficazmediasecundario.JPG)
 
 ### tensão de pico, eficaz e média na carga.
 
-  ![tensão de pico no secundário](/Imagens/parte2/tensaomaxmedcarga.JPG)
+  ![tensão de pico no secundário](/Imagens/parte2/tensaomaxmedcarga2.JPG)
 
 2- Em seguida adicione um capacitor eletrolítico de 330 μF na saída do retificador, conforme mostrado
 na Figura 2. Anote os valores solicitados na Tabela 1.
@@ -36,7 +36,7 @@ Fonte:internet.
 ### Resultados.
 
 ### tensão de pico, eficaz e média na carga com capacitor de 330u.
-![tensaomaxeficmedcarga330](/Imagens/parte2/tensaomaxeficmedcarga330.JPG)
+![tensaomaxeficmedcarga330](/Imagens/parte2/tensaomaxeficmedcarga330u.JPG)
 
 
 3- Substitua o capacitor eletrolítico de 330 μF por um de 2200 μF e observe a forma da tensão de saída
@@ -44,10 +44,10 @@ do circuito, meça as grandezas solicitadas e anote na Tabela 1.
 ### Resultados.
 
 ### tensão de pico, eficaz e média na carga com capacitor de 2200u.
-![tensaomaxeficmedcarga330](/Imagens/parte2/tensaomaxeficmedcarga2200u.JPG)
+![tensaomaxeficmedcarga330](/Imagens/parte2/tensaomaxeficmedcarga2200u2.JPG)
 
 ### Resultados gerais.
-![tensaomaxeficmedcarga330](/Imagens/parte2/tabela1.JPG)
+![tabela1](/Imagens/parte2/tabela_1.JPG)
 
 ##  Parte 01_b: Circuito Retificador de Meia Onda
 Adicione um circuito para medir a corrente. Lembre-se na aula anterior foi estudados os circuitos com Ampop que são utilizados para medir a corrente em um circuito.
