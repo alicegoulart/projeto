@@ -1,4 +1,9 @@
-# Objetivos
+#Instituto Federal de Santa Catarina - Campus Florianópolis Departamento Acadêmico de Eletrônica Curso de Engenharia Eletrônica
+
+Aluno: Luís André G. da Silva.
+
+Relatório sobre retificadores de meia onda.
+
 ##  Os objetivos desta aula são:
 
 1- Estudar retificadores de meia onda, onda completa em ponte e onda completa com
