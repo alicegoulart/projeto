@@ -4,6 +4,8 @@ Aluno: Luís André G. da Silva.
 
 Relatório sobre retificadores de meia onda.
 
+# objetivos.
+
 ##  Os objetivos desta aula são:
 
 1- Estudar retificadores de meia onda, onda completa em ponte e onda completa com
