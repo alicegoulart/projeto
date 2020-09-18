@@ -47,17 +47,14 @@ fonte: Internet.
 
 ### Resultados.
 
- ### Tensão de pico, eficaz e média retificador com derivação no secundário 1 do transformador.
+ ### Tensão de pico, eficaz e média retificador com derivação no secundário 1 e 2 do transformador.
 
-![secundário 1](/Imagens/parte2/secundario1.JPG)
+![secundário 1](/Imagens/parte2/tensaocomderivacaosecundario1_2.JPG)
 
-### Tensão de pico, eficaz e média retificador com derivação no secundário 2 do transformador.
-
-![secundário 2](/Imagens/parte2/secundario2.JPG)
 
 ### Tensão de pico, eficaz e média na  carga retificador com derivação.
 
-![secundário 2](/Imagens/parte2/tensaocomderivacaocarga.JPG)
+![secundário 2](/Imagens/parte2/tensaocomderivacaocarga_1.JPG)
 
 
 ### tensão de pico, eficaz e média na carga com capacitor de 220u.
@@ -70,4 +67,4 @@ fonte: Internet.
 
 ![tensaomaxeficmedcarga220](/Imagens/parte2/tabelacomderivacao.JPG)
 
-Obs. os valores de tensão no secundário 1 e 2 foram anotados para o mesmo tempo, desta forma eles possuem valores iguais com sinais diferentes.
+Obs. os valores de tensão no secundário 1 e 2 foram anotados para tempos diferentes, desta forma eles possuem valores relativamente distintos.
