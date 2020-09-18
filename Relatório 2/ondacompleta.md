@@ -1,3 +1,9 @@
+##### Instituto Federal de Santa Catarina - Campus Florianópolis Departamento Acadêmico de Eletrônica Curso de Engenharia Eletrônica.
+
+Aluno: Luís André G. da Silva.
+
+Relatório sobre retificadores de onda completa.
+
 # Objetivos
 
 ## Os objetivos desta aula de laboratório são:
