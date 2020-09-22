@@ -1,0 +1,36 @@
+# Objetivos
+Os objetivos desta aula de laboratório são:
+1 Estudar os circuitos multiplicadores de tensão e os reguladores shunt com diodos zener;
+2 Em todas as montagens o diodo será o 1n4007 e AmpOp o LM324.
+Em todos os circuitos verifique a queda de tensão máxima nos diodos.
+
+### Parte 01: Circuito dobrador de tensão.
+Verifique qual a corrente consumida pelo CI LM324, lembre-se este CI tem 04 (quatro)
+amplificadores operacionais. Considere também uma corrente de saída dos Ampops de 10mA.
+Projete um circuito dobrador de tensão utilizando como tensão de entrada um transformador com
+tap central de 12Vrms e no máximo 200ms de tempo de inicialização do circuito.
+Qual a tensão de ripple obtida?
+
+![onda Completa](/Imagens/parte3/dobradordetensão.JPG)
+
+fonte: Internet.
+
+### Resultados.
+![onda Completa](/Imagens/parte3/dobradordetensãocomcarga.JPG)
+
+
+![onda Completa](/Imagens/parte3/tensãoderipper.JPG)
+
+
+
+
+
+
+Parte 02: Circuito referência de tensão com diodo Zener
+Adicione a saída do dobrador de tensão do circuito anterior um regulador shunt para a referência de
+tensão.
+Projete este circuito considerando:
+a tensão zener dever ser igual á tensão miníma de de saída menos 2V, ou seja, Vz = Vp -Vr -2V.
+Onde Vp é a tensão máxima na saída do dobrador e Vr é tensão de ripple.
+Escolha o diodo zener de modo a minimizar o consumo neste circuito.
+Qual a regulação de linha e qual a regulação de carga para este circuito?
