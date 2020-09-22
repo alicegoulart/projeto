@@ -1,4 +1,5 @@
 # Objetivos
+
 Os objetivos desta aula de laboratório são:
 1 Estudar os circuitos multiplicadores de tensão e os reguladores shunt com diodos zener;
 2 Em todas as montagens o diodo será o 1n4007 e AmpOp o LM324.
