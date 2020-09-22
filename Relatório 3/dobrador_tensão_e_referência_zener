@@ -16,11 +16,8 @@ Qual a tensão de ripple obtida?
 fonte: Internet.
 
 ### Resultados.
+
 ![onda Completa](/Imagens/parte3/dobradordetensãocomcarga.JPG)
-
-
-![onda Completa](/Imagens/parte3/tensãoderipper.JPG)
-
 
 
 
@@ -30,7 +27,7 @@ Parte 02: Circuito referência de tensão com diodo Zener
 Adicione a saída do dobrador de tensão do circuito anterior um regulador shunt para a referência de
 tensão.
 Projete este circuito considerando:
-a tensão zener dever ser igual á tensão miníma de de saída menos 2V, ou seja, Vz = Vp -Vr -2V.
+a tensão zener dever ser igual á tensão mínima de de saída menos 2V, ou seja, Vz = Vp -Vr -2V.
 Onde Vp é a tensão máxima na saída do dobrador e Vr é tensão de ripple.
 Escolha o diodo zener de modo a minimizar o consumo neste circuito.
 Qual a regulação de linha e qual a regulação de carga para este circuito?
