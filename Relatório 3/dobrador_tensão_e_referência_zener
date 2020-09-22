@@ -11,13 +11,13 @@ Projete um circuito dobrador de tensão utilizando como tensão de entrada um tr
 tap central de 12Vrms e no máximo 200ms de tempo de inicialização do circuito.
 Qual a tensão de ripple obtida?
 
-![onda Completa](/Imagens/parte3/dobradordetensão.JPG)
+![dobrador de tensão](/Imagens/parte3/dobradordetensao.JPG)
 
 fonte: Internet.
 
 ### Resultados.
 
-![onda Completa](/Imagens/parte3/dobradordetensãocomcarga.JPG)
+![dobrador de tensão](/Imagens/parte3/dobradordetensaocomcarga.JPG)
 
 
 
