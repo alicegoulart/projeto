@@ -114,8 +114,8 @@ Procedimento:
 
 ## Conclusão.
 
-Com demostrado na figura o ganho esperado é de 11 unidades o que de fato se percebe na simulação do circuito.
-Mas, uma ponto importante a se expor é que o Ampop LM324 tem uma queda de tensão de aproximadamente
+Com demostrado na figura o ganho esperado é de 11 unidades o que de fato se percebe na simulação do circuito,Mas uma ponto importante a se expor é que o Ampop LM324 tem uma ganho de tensão de aproximadamente 0,021V já o TL082 tem queda de aproximadamente 0,007V.
+O valor de referencia é de 5.5 V, já que o ganho multiplica o valor de entrada de 0,5V, tais situações somente poderiam ser comprovadas na prática.
 
 
 
