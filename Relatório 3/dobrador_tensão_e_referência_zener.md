@@ -18,8 +18,15 @@ fonte: Internet.
 
 ### Resultados.
 
+
+![dobrador de tensão](/Imagens/parte3/capacitor.JPG)
+
 ![dobrador de tensão](/Imagens/parte3/dobradordetensaocomcarga.JPG)
 
+### Conclusão.
+Levando-se em consideração o valor de corrente de 10mA no ampop e uma tensão de ripper de 10% de  foi possível verificar o capacitor que mais se enquadaria e se chegou a uma valo de 50uF com intuito de aproximar para valores comerciais foi adotado na simulação um valor de 56uF.
+Esperava-se que com a utilização do capacitor de 56uF a tensão de ripper ficasse próxima a 10%, no entanto o valor foi bem menor, aproximadamente 1,7% da tensão de pico.
+conclui-se que se for utilizado  valores maiores de capacitores a tensão de ripper será cada vez menor, porém sempre existirá.
 
 
 
