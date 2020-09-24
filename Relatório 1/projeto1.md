@@ -24,16 +24,16 @@ Procedimento:
 
 ### AMPOP Lm324N circuito e gráfico de Vout.
 
-![nãoinversor](/Imagens/parte1/BufferLM324N.PNG)
+![BufferLM324N](/Imagens/parte1/BufferLM324N.PNG)
 
 ### AMPOP TL082 circuito e gráfico de Vout.
 
-![BufferTL082.JPG](/Imagens/parte1/BufferTL082.JPG)
+![BufferTL082](/Imagens/parte1/BufferTL082.JPG)
 
 ## Conclusão.
 
 Sabendo-se que o ganho para a topologia Buffer tem ganho igual a 1 fez-se a análise com dois modelos de AMPOP Lm324N e TL082 e se constatou que de fato não houve ganho de tensão na saída Vout.
-sendo assim, foi verificado que este modelo pode ser usado para isolar e conectar um estágio de alta impedância de entrada a uma carga de baixa impedância de saída sendo este conhecido também como casador de impedâncias
+sendo assim, foi verificado que este modelo pode ser usado para isolar e conectar um estágio de alta impedância de entrada a uma carga de baixa impedância de saída sendo este conhecido também como caçador de impedâncias
 
 
 
@@ -103,7 +103,7 @@ Procedimento:
 
 ### AMPOP LM324N circuito e gráfico de Vin e Vout.
 
-![InvesorLM324N](/Imagens/parte1/nãoinversoraLM324N.JPG)
+![InvesorLM324N](/Imagens/parte1/nãoinversoraLM324.JPG)
 
 
 
@@ -114,7 +114,8 @@ Procedimento:
 
 ## Conclusão.
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Com demostrado na figura o ganho esperado é de 11 unidades o que de fato se percebe na simulação do circuito.
+Mas, uma ponto importante a se expor é que o Ampop LM324 tem uma queda de tensão de aproximadamente
 
 
 
