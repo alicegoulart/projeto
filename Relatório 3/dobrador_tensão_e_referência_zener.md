@@ -1,3 +1,11 @@
+##### Instituto Federal de Santa Catarina - Campus Florianópolis Departamento Acadêmico de Eletrônica Curso de Engenharia Eletrônica
+
+Aluno: Luís André G. da Silva.
+
+Relatório sobre Dobrador de tensão e referência zener.
+
+
+
 # Objetivos
 
 Os objetivos desta aula de laboratório são:
@@ -39,3 +47,37 @@ a tensão zener dever ser igual á tensão mínima de de saída menos 2V, ou sej
 Onde Vp é a tensão máxima na saída do dobrador e Vr é tensão de ripple.
 Escolha o diodo zener de modo a minimizar o consumo neste circuito.
 Qual a regulação de linha e qual a regulação de carga para este circuito?
+
+*** Resultados:
+Situação 1: Cálculo geral do resistor com valores do datasheet.
+
+![calculo1](/Imagens/parte3/calculo1.JPG)
+
+![calculo1](/Imagens/parte3/resultado1.JPG)
+
+Observa-se que nesse primeiro momento a tensão de pico ficou menor, aproximadamente, 30,5V e que a tensão VCC ou regulada esta em aproximadamente 26,5V dentro dos parâmetros especificados no datasheet, porém com ripper a ser considerado.
+
+Situação 2: Arbitrando o valor da corrente 1Z em 1,5mA.
+![calculo1](/Imagens/parte3/calculo2.JPG)
+
+![calculo1](/Imagens/parte3/resultado2.JPG)
+
+
+Neste segundo momento se observa na simulação que a imposição da corrente fez o valor da tensão VZ ficar muito próxima da calculada.
+
+Situação 3: teste de variação de 10% na fonte de tensão, ou seja, 280 V e 342 V de pico.
+
+![calculo1](/Imagens/parte3/resultado280.JPG)
+
+![calculo1](/Imagens/parte3/resultado342.JPG)
+
+Em ambas situações se observou que mesmo havendo uma grande variação de tensão na fonte primaria os parâmetros de saída se mantiveram dentro do especificado no datasheet. primeiro mantendo tensão próxima a 26.35V (calculada) e em segundo corrente permanece entre 0.25 e 8 (mA).
+
+
+Situação 4: Simulação para alimentação da carga.(AmpOp).
+
+![calculo1](/Imagens/parte3/resultadocomcarga.JPG)
+
+Fica claro que mesmo com a carga a corrente que passa pelo diodo zener se mantém próxima a 1,5mA e há uma pequena queda de tensão em VCC que agora será de 25,73V pela inclusão do transitor. Desta forma esperasse que os resultados se confirmem na prática.
+
+Obs.: Não foi possível utilizar o modelo spice do diodo zener devido a grande dificuldade de se encontrar o modelo spice.
