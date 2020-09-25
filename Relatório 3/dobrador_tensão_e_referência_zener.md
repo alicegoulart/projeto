@@ -32,20 +32,22 @@ fonte: Internet.
 ![dobrador de tensão](/Imagens/parte3/dobradordetensaocomcarga.JPG)
 
 ### Conclusão.
-Levando-se em consideração a tensão de pico de 33,3 V já descontato o valor de queda sobre o diodo, o valor de corrente de 10mA no ampop e uma tensão de ripper de 10%  foi possível verificar o capacitor que mais se enquadaria. Cheguei a uma valor de 50uF e com intuito de aproximar para valores comerciais foi adotado na simulação um valor de 56uF.
+Levando-se em consideração a tensão de pico de 33,3 V já descontado o valor de queda sobre o diodo, o valor de corrente de 10mA no ampop e uma tensão de ripper de 10%  foi possível verificar o capacitor que mais se enquadaria. Cheguei a uma valor de 50uF e com intuito de aproximar para valores comerciais foi adotado na simulação um valor de 56uF.
 Esperava-se que com a utilização do capacitor de 56uF a tensão de ripper ficasse próxima a 10%, no entanto o valor foi bem menor, aproximadamente, 1,7% da tensão de pico.
 conclui-se que se for utilizado  valores maiores de capacitores a tensão de ripper será cada vez menor, porém sempre existirá.
 
 
 
 
-Parte 02: Circuito referência de tensão com diodo Zener
+### Parte 02: Circuito referência de tensão com diodo Zener.
+
 Adicione a saída do dobrador de tensão do circuito anterior um regulador shunt para a referência de
 tensão.
+
 Projete este circuito considerando:
-a tensão zener dever ser igual á tensão mínima de de saída menos 2V, ou seja, Vz = Vp -Vr -2V.
-Onde Vp é a tensão máxima na saída do dobrador e Vr é tensão de ripple.
-Escolha o diodo zener de modo a minimizar o consumo neste circuito.
+
+1- A tensão zener dever ser igual á tensão mínima de de saída menos 2V, ou seja, Vz = Vp -Vr -2V.
+Onde Vp é a tensão máxima na saída do dobrador e Vr é tensão de ripple.Escolha o diodo zener de modo a minimizar o consumo neste circuito.
 Qual a regulação de linha e qual a regulação de carga para este circuito?
 
 *** Resultados:
@@ -79,5 +81,9 @@ Situação 4: Simulação para alimentação da carga.(AmpOp).
 ![calculo1](/Imagens/parte3/resultadocomcarga.JPG)
 
 Fica claro que mesmo com a carga a corrente que passa pelo diodo zener se mantém próxima a 1,5mA e há uma pequena queda de tensão em VCC que agora será de 25,73V pela inclusão do transistor. Desta forma esperasse que os resultados se confirmem na prática.
+
+Situação 4: Cáculo regulação.
+
+![calculo1](/Imagens/parte3/regulação.JPG)
 
 Obs.: Não foi possível utilizar o modelo spice do diodo zener devido a grande dificuldade de se encontrar o modelo spice.
