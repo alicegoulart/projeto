@@ -32,6 +32,7 @@ Aqui já se percebe algo estranho com o valor de RDS quando comparado ao valor d
 Quando comparadas as curvas encontradas na simulação com as do datasheet se percebe uma sigficativa diferença, provavelmente, porque o modelo spice formula o componente de forma generalizada sem levar em consideração muitos fatores críticos, sendo um deles a potência dissipada. Desta forma há expressamente diferença nas correntes de saturação.
 
 4-Utilizando a curva ID x VDS obtenha os valores RDS e compare com os valores teóricos.
+
 ![rdsteorico](/Imagens/parte4/RDS2.JPG)
 
 Os valores encontrados são muito discrepantes em relação aos teóricos e mais uma vez acredito que seja pela analise superficial do modelo spice.
