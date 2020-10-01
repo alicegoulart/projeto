@@ -36,3 +36,22 @@ Quando comparadas as curvas encontradas na simulação com as do datasheet se pe
 ![rdsteorico](/Imagens/parte4/RDS2.JPG)
 
 Os valores encontrados são muito discrepantes em relação aos teóricos e mais uma vez acredito que seja pela analise superficial do modelo spice.
+
+
+### Parte 02: Polarização de transistores do tipo NMOS:
+
+Simule o circuito da Figura 01, com os seguintes valores: VCC = 9,0 V, R3 = R4 = 10 kΩ, R1 = 2 kΩ, R2 = 1 kΩ.
+
+![rdsteorico](/Imagens/parte4/modelo.JPG)
+
+1- Em qual região o transistor se encontra polarizado?
+![rdsteorico](/Imagens/parte4/mos.JPG)
+
+Conforme verificado na análise teórica pode-se observar que o transistor está na região de saturação.
+
+
+2- Compare os resultados obtidos com os valores teóricos.
+
+![rdsteorico](/Imagens/parte4/mossaturação.JPG)
+
+Com a análise da simulação pode-se verificar que os valores de correntes e tensões estão bem próximas e fica ratificado que o transistor está na região de saturação.
