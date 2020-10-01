@@ -55,3 +55,35 @@ Conforme verificado na análise teórica pode-se observar que o transistor está
 ![rdsteorico](/Imagens/parte4/mossaturação.JPG)
 
 Com a análise da simulação pode-se verificar que os valores de correntes e tensões estão bem próximas e fica ratificado que o transistor está na região de saturação.
+
+### Parte 03: Espelho de corrente com transistores do tipo NMOS:
+
+Simule o circuito da Figura 02, com os seguintes valores: R1 = 1,0 kΩ, VCC= 10,0 V. Para R2,variando entre 0 e 100kΩ.
+
+![espelho de corrente ](/Imagens/parte4/espelho.JPG)
+
+1 Explique o funcionamento deste circuito comparando as corrente ID1 e ID2.
+
+2 Variando a resistência R2, trace a curva ID2 x V2.
+
+3 Obtenha o máximo valor de R2 para o espelho de corrente funcionar corretamente.
+
+4 Compare os resultados obtidos com a teoria.
+
+
+
+
+### Parte 04: Inversor com transistor do tipo NMOS (NMOS Inverter):
+
+Simule o circuito da Figura 03, com os seguintes valores: R1 = 10 kΩ e VCC= 5,0 V.
+VIN = forma de onda quadrada com 1 kHz e amplitude de 5,0 Vpp (sem valor negativo, ou seja de 0 a 5V ).
+
+![inversor com MOS ](/Imagens/parte4/inversorcommos.JPG)
+
+1 Compare as formas de onda de entrada e de saída.
+
+2 Obtenha o valor de RDS para esse transistor para esta 3ondição de operação.
+
+4 Caso sinal de entrada tenha(VIN) a amplitude reduzida para 2,5 V, qual o valor de RDS?
+
+5 Compare os resultados obtidos com a teoria.
