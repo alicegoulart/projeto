@@ -45,7 +45,7 @@ Simule o circuito da Figura 01, com os seguintes valores: VCC = 9,0 V, R3 = R4 =
 ![rdsteorico](/Imagens/parte4/modelo.JPG)
 
 1- Em qual região o transistor se encontra polarizado?
-![resolução teórica](/Imagens/parte4/mos.JPG)
+![resolução teórica](/Imagens/parte4/mos.jpg)
 
 Conforme verificado na análise teórica pode-se observar que o transistor está na região de saturação.
 
