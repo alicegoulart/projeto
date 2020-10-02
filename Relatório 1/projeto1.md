@@ -1,10 +1,10 @@
-##### Instituto Federal de Santa Catarina - Campus Florianópolis Departamento Acadêmico de Eletrônica Curso de Engenharia Eletrônica
+# Instituto Federal de Santa Catarina - Campus Florianópolis Departamento Acadêmico de Eletrônica Curso de Engenharia Eletrônica
 
-Alunos:
+## Alunos:
 
-*Luís André G. da Silva
+## Luís André G. da Silva
 
-Relatório sobre Circuitos com Amplificadores Operacionais
+### Relatório sobre Circuitos com Amplificadores Operacionais
 
 ## Objetivos.
 
