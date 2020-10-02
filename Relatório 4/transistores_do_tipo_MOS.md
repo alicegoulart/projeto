@@ -1,4 +1,11 @@
+# Instituto Federal de Santa Catarina - Campus Florianópolis Departamento Acadêmico de Eletrônica Curso de Engenharia Eletrônica
+
+## Aluno: Luís André G. da Silva.
+
+## Relatório sobre transistores tipo MOS.
+
 # Objetivos
+
 ## Estudo das características e aplicações de circuitos com transistores do tipo MOS.
 ### Introdução
 Para este experimento, será empregado o transistor 2N7002.

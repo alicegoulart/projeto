@@ -1,10 +1,8 @@
-##### Instituto Federal de Santa Catarina - Campus Florianópolis Departamento Acadêmico de Eletrônica Curso de Engenharia Eletrônica
+# Instituto Federal de Santa Catarina - Campus Florianópolis Departamento Acadêmico de Eletrônica Curso de Engenharia Eletrônica
 
-Aluno: Luís André G. da Silva.
+## Aluno: Luís André G. da Silva.
 
-Relatório sobre Dobrador de tensão e referência zener.
-
-
+## Relatório sobre Dobrador de tensão e referência zener.
 
 # Objetivos
 
