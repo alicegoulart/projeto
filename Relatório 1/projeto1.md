@@ -13,9 +13,13 @@ Parte 01 : Seguidor de tensão.
 Objetivo específico: Verificar o funcionamento de um circuito seguidor de tensão.
 Experimento: Utilizando um Amp.OP. Lm324N e um TL082 monte dois circuitos na configuração de seguidor de tensão(Buffer), com uma resistência de realimentação de 10 kΩ em cada um dos circuitos.
 Utilize a alimentação simétrica de +/-12V. (limite a corrente em 0,05A)
+
 Procedimento:
+
 1. Monte o circuito no LTSPICE.
+
 2. Configure a fonte com sinal senoidal com 0,5Vp @ 1 kHz e analise o gráfico gerado.
+
 3. Discuta os resultados.
 
 ## Análise teórica.
@@ -32,9 +36,6 @@ Procedimento:
 
 Sabendo-se que o ganho para a topologia Buffer tem ganho igual a 1 fez-se a análise com dois modelos de AMPOP Lm324N e TL082 e se constatou que de fato não houve ganho de tensão na saída Vout.
 sendo assim, foi verificado que este modelo pode ser usado para isolar e conectar um estágio de alta impedância de entrada a uma carga de baixa impedância de saída sendo este conhecido também como caçador de impedâncias
-
-
-
 
 
 ### Parte 02: Amplificador inversor
@@ -109,12 +110,10 @@ Procedimento:
 
 ![nãonversoraTL082](/Imagens/parte1/nãoinversoraTL082.JPG)
 
-
 ## Conclusão.
 
 Com demostrado na figura o ganho esperado é de 11 unidades o que de fato se percebe na simulação do circuito,Mas uma ponto importante a se expor é que o Ampop LM324 tem uma ganho de tensão de aproximadamente 0,021V já o TL082 tem queda de aproximadamente 0,007V.
 O valor de referencia é de 5.5 V, já que o ganho multiplica o valor de entrada de 0,5V, tais situações somente poderiam ser comprovadas na prática.
-
 
 
 ### Parte 04: Amplificador subtrator.
@@ -126,7 +125,6 @@ Experimento: Utilizando um Amp.OP. Lm324N e o TL082 monte dois amplificadores su
 use o resistor de realimentação com valor 510kΩ e ganho igual á 10V/V.
 
 Utilize a alimentação simétrica de +/-12V. (limite a corrente em 0,05A)
-
 
 Procedimento:
 1. Monte o circuito no LTSPICE.
