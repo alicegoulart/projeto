@@ -73,11 +73,19 @@ A corrente que transita sobre o circuito de Q1 gera uma tensão VGS , essa tens�
 
 2 Variando a resistência R2, trace a curva ID2 x V2.
 
+
 3 Obtenha o máximo valor de R2 para o espelho de corrente funcionar corretamente.
+
+![inversor com MOS ](/Imagens/parte4/teoricomos.jpg)
+
+de acordo com o descrito o valor máximo de R2 será de 1023 Ohms, pois desta forma o transistor Q2 permanece tendo o valor mínimo de tensão Vt=2,154 V para condução.
+
 
 4 Compare os resultados obtidos com a teoria.
 
+![inversor com MOS ](/Imagens/parte4/zeroohms.jpg)
 
+Após analise de simulação se verificou que o valor encontrado ficou próximo ao valor teórico sendo esse de 840 Ohms frente aos 1023 Ohms teórico.
 
 
 ### Parte 04: Inversor com transistor do tipo NMOS (NMOS Inverter):
@@ -89,7 +97,8 @@ VIN = forma de onda quadrada com 1 kHz e amplitude de 5,0 Vpp (sem valor negativ
 
 1 Compare as formas de onda de entrada e de saída.
 
-2 Obtenha o valor de RDS para esse transistor para esta 3ondição de operação.
+![inversor MOS](/Imagens/parte4/curvainveroramos.JPG)
+2 Obtenha o valor de RDS para esse transistor para esta condição de operação.
 
 4 Caso sinal de entrada tenha(VIN) a amplitude reduzida para 2,5 V, qual o valor de RDS?
 

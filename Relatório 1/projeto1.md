@@ -130,37 +130,47 @@ use o resistor de realimentação com valor 510kΩ e ganho igual á 10V/V.
 Utilize a alimentação simétrica de +/-12V. (limite a corrente em 0,05A)
 
 
-## Análise teórica.
+Procedimento:
+1. Monte o circuito no LTSPICE.
+
+![subtratorTL082](/Imagens/parte1/modelo4_1.JPG)
+
+2. Compare os resultados para o LM324N e para TL082.
+
 
 ![Subtrator](/Imagens/parte1/subtrator.JPG)
 
-### AMPOP LM324N circuito e gráfico de Vin e Vout.
+### AMPOP LM324N circuito e gráfico de Vout.
 
-![InvesorLM324N](/Imagens/parte1/subtratorLM324N.JPG)
+![InvesorLM324N](/Imagens/parte1/subtratorLM324.JPG)
 
+De acordo com a  análise teórica o valor de tensão sobre o resistor de 1 ohm será de 96,6962 V, fazendo um divisor de tensão entre os resistores de 620 e 1 Ohm. desconsiderando a carga(ampop).
+Feito isso, se verificou que a tensão de saída sobre o LM324 ficou em aproximadamente 130mV, já o TL082 teve uma melhor aproximação de tensão do valor teórico ficando em 95,14mV.
 
-
-### AMPOP TL082 circuito e gráfico de Vin e Vout.
+### AMPOP TL082 circuito e gráfico de Vout.
 
 ![subtratorTL082](/Imagens/parte1/subtratorTL082.JPG)
 
-Procedimento:
-1. Monte o circuito no LTSPICE.
-2. Compare os resultados para o LM324N e para TL082.
-3. Caso a fonte V1 tenha o valor igual á 0(zero)V, qual o valor da tensão de saída, para ambos os circuitos? Explique.
-4. Caso o seja alterado para o circuito abaixo, existe alguma variação na saída? Explique.
-5. Justifique as dissimilaridades encontradas utilizando os dados do datasheet.
 
+3. Caso a fonte V1 tenha o valor igual á 0(zero)V, qual o valor da tensão de saída, para ambos os circuitos? Explique.
 
 ### V1 igual a zero LM324N.
 
+![subtratorTL082](/Imagens/parte1/LMZEROVOLTS.JPG)
 
 ### V1 igual a zero TL082.
 
+![subtratorTL082](/Imagens/parte1/subtratortensaozero.JPG)
+
+
+4. Caso o seja alterado para o circuito abaixo, existe alguma variação na saída? Explique.
+
+![subtratorTL082](/Imagens/parte1/modelo4_2.JPG)
 
 
 ### Alteração do circuito com LM324N.
-![InvesorLM324N](/Imagens/parte1/subtrator2LM324N.JPG)
+
+![InvesorLM324N](/Imagens/parte1/subtrator2LM324.JPG)
 
 
 ### Alteração do circuito com TL082.
@@ -168,8 +178,13 @@ Procedimento:
 ![subtratorTL082](/Imagens/parte1/subtrator2TL082.JPG)
 
 
+Após a comparação entre os gráficos pode-se observar que há uma pequena melhora nos valores de tesão de saída se aproximando mais ao valor de 96,6962V esperado e mais uma vez o TL082 se mostrou fiel ao resultado teórico com 96,80V Vout.
+
+5. Justifique as dissimilaridades encontradas utilizando os dados do datasheet.
 
 
 ## Conclusão.
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+O amplificador subtrator é um excelente modelo quando se quer buscar um parâmetro de referência de tensão, pois uma pequena diferença de tensão pode ser multiplicada pelo ganho podendo ser usada para outras finalidades.
+Quando se fala nos amplificadores testados pode-se verificar que há diferença entre eles tendo o LM324N alcançado valores mais discrepantes quando comparados ao valor teórico.
+Já o TL082 teve valores muito próximos ao desejado.
