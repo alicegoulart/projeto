@@ -90,7 +90,7 @@ de acordo com o descrito o valor máximo de R2 será de 1023 Ohms, pois desta fo
 
 4 Compare os resultados obtidos com a teoria.
 
-![inversor com MOS ](/Imagens/parte4/zeroohms.jpg)
+![inversor com MOS ](/Imagens/parte4/zeroohms.JPG)
 
 Após analise de simulação se verificou que o valor encontrado ficou próximo ao valor teórico sendo esse de 840 Ohms frente aos 1023 Ohms teórico.
 
