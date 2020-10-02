@@ -64,6 +64,13 @@ Simule o circuito da Figura 02, com os seguintes valores: R1 = 1,0 kΩ, VCC= 10,
 
 1 Explique o funcionamento deste circuito comparando as corrente ID1 e ID2.
 
+Resposta:
+
+A configuração mostra o transistor Q1 com os polos Gate e Dreno curto-circuitados desta forma Q1 está funcionando como um diodo e ID1 é a corrente que passa sobre o resistor R1. Também conhecida como IRef.
+IRef pode ser encontrada da seguinte forma IRef=(VCC-VGS)/R
+A corrente que transita sobre o circuito de Q1 gera uma tensão VGS , essa tensão polariza o transistor Q2. A corrente ID2 será a mesma corrente que transita em Q1, logo, ID1= ID2, ou seja, é um espelho de corrente, pois a relação entre IRef. e ID2 está nas características dos transistores Kn’,W,L. como transistores devem ser iguais sendo Q1 um conversor de corrente para tensão e Q2 um conversor de tensão para corrente podemos confirmar que ID1=ID2.
+
+
 2 Variando a resistência R2, trace a curva ID2 x V2.
 
 3 Obtenha o máximo valor de R2 para o espelho de corrente funcionar corretamente.
