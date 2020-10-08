@@ -71,7 +71,7 @@ Conforme já esperado a tensão de saída ficou em 12V RMS e 17,05V de pico.
 ![tensaomaxeficmedcarga220](/Imagens/parte2/ondacompletacomderivacao.JPG)
 #### Figura 4.
 
-Um circuito retificador, ou simplesmente retificador, corresponde aos circuitos elétricos de tensão elaborados para a conversão de corrente alternada em corrente de passagem .
+Um circuito retificador, ou simplesmente retificador, corresponde aos circuitos elétricos de tensão elaborados para a conversão de corrente alternada em corrente de contínua .
 Utiliza-se para este processo elementos semicondutores, tais como os diodos e tiristores, além de um transformador. Em outras palavras, trata-se de um dispositivo que permite que uma tensão, ou corrente alternada (CA) (normalmente senoidal) seja constante, ou seja transformada em contínua.
 Existem alguns tipos de retificadores: meia onda, onda completa com ponte ou onda completa com ponto médio. Para este trabalho foi adotado o onda completa com center tap.
 
