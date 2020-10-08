@@ -192,3 +192,16 @@ Sugestão de melhoria:
 
 O principal problema da fonte de corrente do circuito está em depender do hfe e nas pequenas diferenças características de cada transistor fazendo com que possa haver uma leve variação de tensão VCE.
 Uma forma de melhorar o circuito seria usar um potenciômetro em paralelo com o diodo D3 o que permitiria ter um melhor controle sobre a tensão de saída.
+
+## Parte 03
+
+Adicionando um circuito de proteção de sobre corrente ao regulador linear.
+
+1-Primeiramente reflita e pesquise sobre o que é sobrecorrente?
+
+2-Quais os impactos neste circuito?
+
+3-O que deve fazer um circuito de proteção de sobrecorrente?
+
+4- O que é a proteção foldback? Pesquise as topologias disponíveis, caso deseja-se fazer um circuito LDO, o que devemos levar
+em consideração para o regulador?
