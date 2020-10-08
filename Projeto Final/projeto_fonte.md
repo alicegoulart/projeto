@@ -90,7 +90,7 @@ Neste trabalho será aplicado o filtro tipo capacitivo devido a sua facilidade d
 Para se obter o filtro corretamente se verifica alguns parâmetros como: tensão de ondulação e regulação de tensão.
 para a filtragem foi adotado que a tensão de Ripper de saída será de 1Vpp e que a corrente do circuito será de 1,1A, sendo 0,1A o valor para gasto com componentes do circuito sendo assim:
 
-![primeiro bloco](/Imagens/parte5/Ripper.JPG)
+![primeiro bloco](/Imagens/parte5/ripper.JPG)
 #### Figura 7.
 
 C=I/(f*Vr);
