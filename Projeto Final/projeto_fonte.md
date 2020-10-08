@@ -1,11 +1,11 @@
-##### Instituto Federal de Santa Catarina - Campus Florianópolis Departamento Acadêmico de Eletrônica Curso de Engenharia Eletrônica
+# Instituto Federal de Santa Catarina - Campus Florianópolis Departamento Acadêmico de Eletrônica Curso de Engenharia Eletrônica
 
 Alunos:
 
 *Luís André G. da Silva
 
 
-# Objetivos
+## Objetivos
 Integração dos blocos de uma fonte linear.
 
 ## Introdução
@@ -14,23 +14,35 @@ Neste roteiro iremos integrar os circuitos estudados anteriormente, para isso, r
 ## Especificações técnicas básicas:
 
 Construir um regulador de tensão com as seguintes características:
-•	Corrente de saída: 1 A
-•	Rede Elétrica: 220 V +- 10% , 60 Hz
-•	Ondulação da tensão de saída a plena carga: a melhor possível
-•	Regulação da tensão de saída: No máximo 1%
-•	Tensões de saída 15V
 
-## componentes utilizados para a construção da fonte.
+•	Corrente de saída: 1 A;
+
+•	Rede Elétrica: 220 V +- 10% , 60 Hz;
+
+•	Ondulação da tensão de saída a plena carga: a melhor possível;
+
+•	Regulação da tensão de saída: No máximo 1%;
+
+•	Tensões de saída 15V.
+
+## Componentes utilizados para a construção da fonte.
 1-Transformador de 220/12 V;
+
 2-Diodos 1N4007;
-3-Diodos Zener DTDZV27 e EDZV11B
-4-Capacitores de 56uF e 9,1mF;
+
+3-Diodos Zener DTDZV27 e EDZV11B;
+
+4-Capacitores de 2,5mF e 9,1mF;
+
 5-Transistores tipo BJT 2n3904 e 2SA1774;
-6-Trasistores tipo MOS 2N7002 e IRF540;
-7-Aplificadores operacionais LM324;
+
+6-Transistores tipo MOS 2N7002 e IRF540;
+
+7-Aplificador operacional LM324;
+
 8- Resistores.
 
-### Concepção geral da fonte
+## Concepção geral da fonte
 
 Um regulador de tensão em geral esta divido em blocos sendo este inicialmente o bloco de transformação onde um transformador, geralmente abaixador, diminui a tensão para valores próximos ao valor desejado.
 O segundo bloco consta de um processo de retificação podendo ser de meia onda, onda completa com ponto médio ou onda completa em ponte, todos possuem vantagens e desvantagem. Para este relatório será usando o retificador de onda completa com center tap.
@@ -40,7 +52,7 @@ No quarto bloco está o regulador propriamente dito, pois neste bloco poderá se
 ![primeiro bloco](/Imagens/parte5/esquemaemblocos.JPG)
 
 
-### Transformador.
+## Transformador.
 
 
 ![primeiro bloco](/Imagens/parte5/transformador1.JPG)
@@ -68,7 +80,7 @@ Existem alguns tipos de retificadores: meia onda, onda completa com ponte ou ond
 
 Foi incluído neste circuito uma carga de 16ohms para a simulação de aproximadamente 1A de corrente. De fato se verifica o processo de retificação da onda senoidal de entrada.
 
-### Projeto do Filtro
+## Projeto do Filtro
 
 ![primeiro bloco](/Imagens/parte5/filtragem.JPG)
 
@@ -90,7 +102,7 @@ C=9,166667mF
 De fato se verifica que quando passar 1A Vr será de aproximadamente 1Vpp.
 
 
-## Projeto o Regulador.
+## Projeto do Regulador.
 
 
 ### Parte 01
@@ -177,4 +189,4 @@ Quais problemas podemos identificar nesta topologia?
 Sugestão de melhoria:
 
 O principal problema da fonte de corrente do circuito está em depender do hfe e nas pequenas diferenças características de cada transistor fazendo com que possa haver uma leve variação de tensão VCE.
-Uma forma de melhorar o circuito seria usar um potenciômetro em paralelo com o diodo D3 o que permitiria ter um melhor controle sobre a tensão de saída. 
+Uma forma de melhorar o circuito seria usar um potenciômetro em paralelo com o diodo D3 o que permitiria ter um melhor controle sobre a tensão de saída.
