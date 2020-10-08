@@ -94,10 +94,12 @@ para a filtragem foi adotado que a tensão de Ripper de saída será de 1Vpp e q
 #### Figura 7.
 
 C=I/(f*Vr);
+
 C=1.1/(120*1);
+
 C=9,166667mF
 
-![primeiro bloco](/Imagens/parte5/Ripper1.JPG)
+![primeiro bloco](/Imagens/parte5/ripper1.JPG)
 
 De fato se verifica que quando passar 1A Vr será de aproximadamente 1Vpp.
 
