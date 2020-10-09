@@ -2,7 +2,7 @@
 
 Alunos:
 
-*Luís André G. da Silva
+* Luís André G. da Silva
 
 
 ## Objetivos
@@ -26,7 +26,8 @@ Construir um regulador de tensão com as seguintes características:
 •	Tensões de saída 15V.
 
 ## Componentes utilizados para a construção da fonte.
-1-Transformador de 220/12 V;
+
+1-Transformador de 220/12V;
 
 2-Diodos 1N4007;
 
@@ -38,7 +39,7 @@ Construir um regulador de tensão com as seguintes características:
 
 6-Transistores tipo MOS 2N7002 e IRF540;
 
-7-Aplificador operacional LM324;
+7-Aplificadores operacionais LM324;
 
 8- Resistores.
 
@@ -59,7 +60,7 @@ No quarto bloco está o regulador propriamente dito, pois neste bloco poderá se
 
 Neste primeiro momento é importante destacar que a melhor metodologia para a construção da fonte linear seria partir da carga até o transformador, haja vista, que para se compreender qual o transformador ideal para o regulador seria necessário se entender todas as quedas de tensão no circuito, ou  pelo menos estaria mais próximo do valor real necessário.
 Neste relatório foi feito inicialmente uma projeção das quedas de tensão e se colocou para um valor que não ficasse tão distante do valor final da fonte e que ao mesmo tempo  o transformador fosse um item comercial e que pudesse suprir a tensão necessária para a carga.
-Sendo assim, inicialmente, os seguintes dados abaixo foram especificados e se concluiu que será preciso  um transformador com relação de transformação de 220 V para 12v; corrente máxima de saída de 2 A; e frequência de 60Hz. para o pior caso quando a tensão de entrada estiver em 198V ou 242V. conforme especificado para este projeto.
+Sendo assim, inicialmente, os seguintes dados abaixo foram especificados e se concluiu que será preciso  um transformador com relação de transformação de 220v para 12v; corrente máxima de saída de 2 A; e frequência de 60Hz. para o pior caso quando a tensão de entrada estiver em 198V ou 242V. conforme especificado para este projeto.
 
 ![primeiro bloco](/Imagens/parte5/transformador.JPG)
 #### Figura 3.
@@ -88,7 +89,7 @@ Foi incluído neste circuito uma carga de 16ohms para a simulação de aproximad
 Como já visto na figura anterior o retificador fez o processo de transformar a corrente alternada em corrente contínua, porém ainda não é o ideal para dispositivos que funcionam em CC. Para que seja obtida uma tensão mais "lisa" é fundamental o emprego de filtro. Podendo esse se apresentar capacitivo, capacitivo-indutivo ou até capacitivo-indutivo-resistivo.
 Neste trabalho será aplicado o filtro tipo capacitivo devido a sua facilidade de cálculos e de implementação.
 Para se obter o filtro corretamente se verifica alguns parâmetros como: tensão de ondulação e regulação de tensão.
-para a filtragem foi adotado que a tensão de Ripper de saída será de 1Vpp e que a corrente do circuito será de 1,1A, sendo 0,1A o valor para gasto com componentes do circuito sendo assim:
+para a filtragem foi adotado que a tensão de Ripper de saída será de 1Vpp e que a corrente do circuito será de 1,1A, sendo 0,1A o valor para gasto com componentes do circuito, sendo assim:
 
 ![primeiro bloco](/Imagens/parte5/ripper.JPG)
 #### Figura 7.
@@ -138,10 +139,10 @@ C=2,5mF
 
 ![primeiro bloco](/Imagens/parte5/3vdobrador.JPG)
 
-Nota-se que o valor alcançado está levemente,Vr=3,04 V, abaixo do valor calculado Vr=3,3V. com isso o circuito deve ser melhorado para se obter um valor de tensão mais próximo estável com intuito de diminuir a tensão de ripper na entrada do ampop, sendo este o principal problema.
+Nota-se que o valor alcançado está levemente, Vr=3,04 V, abaixo do valor calculado Vr=3,3V. Com isso, o circuito deve ser melhorado para se obter um valor de tensão mais estável com intuito de diminuir a tensão de ripper na entrada do ampop, sendo este o principal problema.
 umas das medidas seria aumentar o valor dos capacitores do dobrador, outra forma seria a inclusão de um potenciômetro em paralelo com o diodo zener o que permitiria a variação da tensão de 0 a 27V.
 
-Outro ponto a se observar é a corrente de pico nos diodos quando o circuito é ligado, está ficou em aproximadamente, 15A, bem abaixo do valor de datashhet do diodo que é de 30A.
+Outro ponto a se observar é a corrente de pico nos diodos quando o circuito é ligado, está ficou em aproximadamente, 15A, bem abaixo do valor de datashhet do diodo que é de 30A. este fato é importante, pois se houver exagerada elevação dos capacitores a corrente de pico ficará com valor elevado podendo vir a queimar os diodos.
 
 ![primeiro bloco](/Imagens/parte5/correntedepico.JPG)
 
@@ -155,13 +156,12 @@ Tensão de saída(Vout) após inclusão de alguns componentes.
 
 ![primeiro bloco](/Imagens/parte5/figura2_1.JPG)
 
-observa-se que a tensão Vout está com um pequeno ripper na saída de aproximadamente 20uV.
+Observa-se que a tensão Vout está com um pequeno ripper na saída de aproximadamente 20uV.
 A alimentação do amplificador pode ser melhorada colocando os capacitores C2 E C3 de maior valor no dobrador de tensão o que diminuirá consideravelmente o ripper, mas com valores cada vez maior o tempo para entrarem regime permanente também aumenta tornando-se elevado demais. outra forma é incluir um transistor com alto ganho E com um pequeno capacitor o que deverá deixar a tesão com menor ripper, além de incluir um potenciômetro em paralelo com D6 para regular a fonte de 0 a 27V.  
 
 ### Parte 02 Calculando e dimensionando outros componentes.
 
 ![figura3](/Imagens/parte5/figura3.JPG)
-
 
 a) Para o primeiro bloco (D1, D2 e C1) considere vin+ = 12Vrms, vripple_pós_retificador = 1V e I_carga =1,1A. (Vide roteiro 02)
 
@@ -199,9 +199,15 @@ Adicionando um circuito de proteção de sobre corrente ao regulador linear.
 
 1-Primeiramente reflita e pesquise sobre o que é sobrecorrente?
 
+De acordo com os site https://brainly.com.br/sobrecorrente. Sobrecorrente  é definida como sendo qualquer corrente elétrica que flui por um equipamento com magnitude acima da qual o equipamento foi projetado para funcionar. As sobrecorrentes podem ser sob a forma de uma sobrecarga ou curto-circuito.
+
 2-Quais os impactos neste circuito?
 
+Uma elevada corrente num circuito certamente queimará alguns componentes podendo ser os diodos, transistores, resistores ou até mesmo o transformador que outrora fora projetado para um limite máximo de 2A, mas com a concepção feita no circuito com proteção de sobrecorrente a queima dificilmente ocorrerá, uma vez que foi feito um circuito para proteção da fonte e caso haja elevação na carga ou um curto circuito na saída da fonte está ira diminuir a tensão de saída para que não aconteça nenhum problema.
+
 3-O que deve fazer um circuito de proteção de sobrecorrente?
+Assim como diz a nomeclatura o circuito deve ser capaz de atuar quando a corrente na saída seja maior que a projetada para o circuito seja por sobrecarga ou por curto circuito.
+Para o projeto em questão a fonte foi projetada para 15W, 1A tendo seu limite de atuação quando a corrente do circuito ultrapassar 1,2A.
 
 4- O que é a proteção foldback? Pesquise as topologias disponíveis, caso deseja-se fazer um circuito LDO, o que devemos levar
 em consideração para o regulador?
