@@ -83,6 +83,7 @@ Foi incluído neste circuito uma carga de 16ohms para a simulação de aproximad
 
 ## Projeto do Filtro
 
+
 ![primeiro bloco](/Imagens/parte5/filtragem.JPG)
 
 
@@ -101,6 +102,8 @@ C=1.1/(120*1);
 C=9,166667mF
 
 ![primeiro bloco](/Imagens/parte5/ripper1.JPG)
+#### Figura 8.
+
 
 De fato se verifica que quando passar 1A Vr será de aproximadamente 1Vpp.
 
@@ -113,7 +116,7 @@ De fato se verifica que quando passar 1A Vr será de aproximadamente 1Vpp.
 Considerando o circuito da figura 01 que representa uma fonte linear com regulador MOSFET, temos o seguinte problema:
 
 ![primeiro bloco](/Imagens/parte5/figura1.JPG)
-Figura 1.
+#### Figura 9.
 
 1- Qual relação entre a tensão de alimentação do ampop e a tensão de saída?
 
@@ -138,6 +141,7 @@ C=0,5/(60*0,1*33,3);
 C=2,5mF
 
 ![primeiro bloco](/Imagens/parte5/3vdobrador.JPG)
+#### Figura 10.
 
 Nota-se que o valor alcançado está levemente, Vr=3,04 V, abaixo do valor calculado Vr=3,3V. Com isso, o circuito deve ser melhorado para se obter um valor de tensão mais estável com intuito de diminuir a tensão de ripper na entrada do ampop, sendo este o principal problema.
 umas das medidas seria aumentar o valor dos capacitores do dobrador, outra forma seria a inclusão de um potenciômetro em paralelo com o diodo zener o que permitiria a variação da tensão de 0 a 27V.
@@ -145,16 +149,20 @@ umas das medidas seria aumentar o valor dos capacitores do dobrador, outra forma
 Outro ponto a se observar é a corrente de pico nos diodos quando o circuito é ligado, está ficou em aproximadamente, 15A, bem abaixo do valor de datashhet do diodo que é de 30A. este fato é importante, pois se houver exagerada elevação dos capacitores a corrente de pico ficará com valor elevado podendo vir a queimar os diodos.
 
 ![primeiro bloco](/Imagens/parte5/correntedepico.JPG)
+#### Figura 11.
 
 ### Circuito proposto (02) para a alimentação do AmpOp:
 
 Considere: AmpOp LM324, MOSFET IRF540, VOUT = 15V, IOUT = 1A, vin+ = 12Vrms, vripple pós-retificador =1V, considere as quedas de tensão nos diodos de 0,7V.
 
 ![primeiro bloco](/Imagens/parte5/figura2.JPG)
+#### Figura 12.
+
 
 Tensão de saída(Vout) após inclusão de alguns componentes.
 
 ![primeiro bloco](/Imagens/parte5/figura2_1.JPG)
+#### Figura 13.
 
 Observa-se que a tensão Vout está com um pequeno ripper na saída de aproximadamente 20uV.
 A alimentação do amplificador pode ser melhorada colocando os capacitores C2 E C3 de maior valor no dobrador de tensão o que diminuirá consideravelmente o ripper, mas com valores cada vez maior o tempo para entrarem regime permanente também aumenta tornando-se elevado demais. outra forma é incluir um transistor com alto ganho E com um pequeno capacitor o que deverá deixar a tesão com menor ripper, além de incluir um potenciômetro em paralelo com D6 para regular a fonte de 0 a 27V.  
@@ -162,28 +170,33 @@ A alimentação do amplificador pode ser melhorada colocando os capacitores C2 E
 ### Parte 02 Calculando e dimensionando outros componentes.
 
 ![figura3](/Imagens/parte5/figura3.JPG)
-
+#### Figura 15.
 a) Para o primeiro bloco (D1, D2 e C1) considere vin+ = 12Vrms, vripple_pós_retificador = 1V e I_carga =1,1A. (Vide roteiro 02)
 
 b) Circuito referência de tensão zener (R1 e D3): Ver roteiro 03. Podemos melhorar esse circuito?
 
 ![primeiro bloco](/Imagens/parte5/transistor.JPG)
+#### Figura 16.
 
 ![primeiro bloco](/Imagens/parte5/questão2.JPG)
+#### Figura 17.
 
 ### Tensão e Corrente de saida.
 
 ![primeiro bloco](/Imagens/parte5/correntediodo.JPG)
+#### Figura 18.
 
 Foram escolhidos os transistores PNP 2SA1774 para a fonte de corrente por possuírem um hfe de 300 e com a potência devida pelo circuito.
 
 ### Tensão de saída do regulador após inserção dos componentes.
 
 ![primeiro bloco](/Imagens/parte5/vout.JPG)
+#### Figura 19.
 
 ### Tensão de saída do regulador após inserção de uma carga de 15 Ohms para simular uma I=1A.
 
 ![primeiro bloco](/Imagens/parte5/ripper_saida.JPG)
+#### Figura 20.
 
 Podemos verificar que corrente de saída realmente está próxima a 1A e Vr está em, aproximadamente, 7,5uV. o que permite verificar que a tensão RMS quase não sofreu alteração com a inclusão da carga.
 
@@ -206,8 +219,34 @@ De acordo com os site https://brainly.com.br/sobrecorrente. Sobrecorrente  é de
 Uma elevada corrente num circuito certamente queimará alguns componentes podendo ser os diodos, transistores, resistores ou até mesmo o transformador que outrora fora projetado para um limite máximo de 2A, mas com a concepção feita no circuito com proteção de sobrecorrente a queima dificilmente ocorrerá, uma vez que foi feito um circuito para proteção da fonte e caso haja elevação na carga ou um curto circuito na saída da fonte está ira diminuir a tensão de saída para que não aconteça nenhum problema.
 
 3-O que deve fazer um circuito de proteção de sobrecorrente?
-Assim como diz a nomeclatura o circuito deve ser capaz de atuar quando a corrente na saída seja maior que a projetada para o circuito seja por sobrecarga ou por curto circuito.
+Assim como diz a nomenclatura o circuito deve ser capaz de atuar quando a corrente na saída seja maior que a projetada para o circuito seja por sobrecarga ou por curto circuito.
 Para o projeto em questão a fonte foi projetada para 15W, 1A tendo seu limite de atuação quando a corrente do circuito ultrapassar 1,2A.
 
 4- O que é a proteção foldback? Pesquise as topologias disponíveis, caso deseja-se fazer um circuito LDO, o que devemos levar
 em consideração para o regulador?
+
+### Análise final do regulador linear.
+
+Em ultimo instante foi realizada a implementação de um sistema de proteção da fonte colocando-se um resistor shunt subtrator para elevar a queda de tensão na saída do AMPOP.
+sabendo-se que a tensão VDS é aproximadamente 2,154V houve a necessidade de se fazer o cálculo do divisor de tensão na saída do circuito subtrator para que o transistor M2 se comportasse como uma chave e isso para isso a tensão VGS deverá ser valor que a tensão VDS.
+Em primeiro momento foi escolhido um resistor comercial Shunt de 51m ohms e se deseja que a corrente de corte seja de 1,2A, além de ser querer uma tensão de aproximadamente 4,4V sobre o divisor de tensão, sendo assim temos.
+
+Vshunt=1,2*51^10-3
+
+Vshunt=61,2mV
+
+Ganho do subtrator=4,4/(0,0612)
+Ganho do subtrator=71,89
+
+Após análise do ganho Podemos optar por uma imensa gama de resistores que possuam a devida relação e sabendo que a tensão de saída do subtrator será de Vout=R10/R9(Va-vb) foram adotados os resistores de R9=10K e R10=720K.
+
+![primeiro bloco](/Imagens/parte5/esquemafinal.JPG)
+#### Figura 21.
+
+
+
+![primeiro bloco](/Imagens/parte5/final.JPG).
+#### Figura 22.
+
+
+Após implementação de todos os componentes consegue-se observar que o objetivo foi cumprido a tensão de saída está muito próxima aos 15v desejados a corrente sobre a carga é de aproximadamente 1A e a correntes sobre os diodos ficam bem abaixo dos 30A, valor máximo sore estes.
