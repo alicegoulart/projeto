@@ -225,6 +225,12 @@ Para o projeto em questão a fonte foi projetada para 15W, 1A tendo seu limite d
 4- O que é a proteção foldback? Pesquise as topologias disponíveis, caso deseja-se fazer um circuito LDO, o que devemos levar
 em consideração para o regulador?
 
+De acordo com o site https://qastack.com.br/electronics/2931/what-is-foldback-short-circuit-protection-in-a-power-supply foldback é o método usado em fontes de alimentação para protegê-las de situações atuais, como curto-circuito na saída com um fio ou conexão de muitos equipamentos à fonte de alimentação.
+
+Com a corrente normal (lado alto) limitando, há uma tampa de corrente dura que o suprimento é limitado para protegê-lo. À medida que a resistência da carga se aproxima de 0, a corrente é limitada a um valor fixo e a tensão começa a cair. Isso pode causar uma grande quantidade de dissipação de energia no suprimento.
+
+Com a proteção foldback, quando a tensão cai, o limite de corrente também cai de maneira bastante linear. Isso fornece proteção mais segura contra curtos-circuitos, pois um curto-circuito "muito ruim" resultará em muito pouco consumo de corrente, para que o suprimento não fique sentado assando na corrente máxima.
+
 ### Análise final do regulador linear.
 
 Em ultimo instante foi realizada a implementação de um sistema de proteção da fonte colocando-se um resistor shunt subtrator para elevar a queda de tensão na saída do AMPOP.
@@ -249,4 +255,5 @@ Após análise do ganho Podemos optar por uma imensa gama de resistores que poss
 #### Figura 22.
 
 
-Após implementação de todos os componentes consegue-se observar que o objetivo foi cumprido a tensão de saída está muito próxima aos 15v desejados a corrente sobre a carga é de aproximadamente 1A e a correntes sobre os diodos ficam bem abaixo dos 30A, valor máximo sore estes.
+Após implementação de todos os componentes consegue-se observar que o objetivo foi cumprido a tensão de saída está muito próxima aos 15v desejados a corrente sobre a carga é de aproximadamente 1A e a correntes sobre os diodos ficam bem abaixo dos 30A, valor máximo sobre estes.
+Ressalto que o regulador poderia ser aperfeiçoado com potenciômetro podendo ser sobre o diodo D3 ou a troca do resistor R10 por esse.
