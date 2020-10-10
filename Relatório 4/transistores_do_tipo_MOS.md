@@ -81,6 +81,8 @@ A corrente que transita sobre o circuito de Q1 gera uma tensão VGS , essa tens�
 
 2- Variando a resistência R2, trace a curva ID2 x V2.
 
+![inversor com MOS ](/Imagens/parte4/0a100k.JPG)
+Verifica-se que a corrente encontrada é de 7,638mA muito próxima ao valor calculado de 7,664mA.
 
 3 Obtenha o máximo valor de R2 para o espelho de corrente funcionar corretamente.
 
