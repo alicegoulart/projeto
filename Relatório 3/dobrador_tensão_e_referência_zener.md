@@ -12,6 +12,7 @@ Os objetivos desta aula de laboratório são:
 Em todos os circuitos verifique a queda de tensão máxima nos diodos.
 
 ### Parte 01: Circuito dobrador de tensão.
+
 Verifique qual a corrente consumida pelo CI LM324, lembre-se este CI tem 04 (quatro)
 amplificadores operacionais. Considere também uma corrente de saída dos Ampops de 10mA.
 Projete um circuito dobrador de tensão utilizando como tensão de entrada um transformador com
@@ -30,7 +31,8 @@ fonte: Internet.
 ![dobrador de tensão](/Imagens/parte3/dobradordetensaocomcarga.JPG)
 
 ### Conclusão.
-Levando-se em consideração a tensão de pico de 33,3 V já descontado o valor de queda sobre o diodo, o valor de corrente de 10mA no ampop e uma tensão de ripper de 10%  foi possível verificar o capacitor que mais se enquadaria. Cheguei a uma valor de 50uF e com intuito de aproximar para valores comerciais foi adotado na simulação um valor de 56uF.
+
+Levando-se em consideração a tensão de pico de 33,3 V já descontado o valor de queda sobre o diodo, o valor de corrente de 10mA no ampop e uma tensão de ripper de 10%  foi possível verificar o capacitor que mais se enquadraria. Cheguei a uma valor de 50uF e com intuito de aproximar para valores comerciais foi adotado na simulação um valor de 56uF.
 Esperava-se que com a utilização do capacitor de 56uF a tensão de ripper ficasse próxima a 10%, no entanto o valor foi bem menor, aproximadamente, 1,7% da tensão de pico.
 conclui-se que se for utilizado  valores maiores de capacitores a tensão de ripper será cada vez menor, porém sempre existirá.
 
@@ -80,8 +82,8 @@ Situação 4: Simulação para alimentação da carga.(AmpOp).
 
 Fica claro que mesmo com a carga a corrente que passa pelo diodo zener se mantém próxima a 1,5mA e há uma pequena queda de tensão em VCC que agora será de 25,73V pela inclusão do transistor. Desta forma esperasse que os resultados se confirmem na prática.
 
-Situação 4: Cáculo regulação.
+Situação 4: Cálculo regulação.
 
 ![calculo1](/Imagens/parte3/regulação.JPG)
 
-Obs.: Não foi possível utilizar o modelo spice do diodo zener devido a grande dificuldade de se encontrar o modelo spice.
+Obs.: Não foi possível utilizar o modelo spice do diodo zener devido a grande dificuldade de se encontrar o modelo spice, no entanto está dificuldade foi corrigida no relatório final.
