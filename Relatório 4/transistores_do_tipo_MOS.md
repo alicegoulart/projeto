@@ -118,6 +118,6 @@ VIN = forma de onda quadrada com 1 kHz e amplitude de 5,0 Vpp (sem valor negativ
 4 Compare os resultados obtidos com a teoria.
 ![inversor MOS](/Imagens/parte4/resultado1.JPG)
 
-![inversor MOS](/Imagens/parte4/resultado1.JPG)
+![inversor MOS](/Imagens/parte4/resultado2.JPG)
 
 Conforme já esperando a tensão de entrada praticamente não se modificou ficando em 4,9999V. Desta forma podemos crer que resistência RDS é muito pequena quando comparada ao resistor R1. Com isso, a queda de tensão é mínima para ambos os casos, além de que o transistor parece operar apenas como chave e fazendo o processo de inversão da tensão de entrada.
