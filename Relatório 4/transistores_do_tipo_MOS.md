@@ -109,8 +109,15 @@ VIN = forma de onda quadrada com 1 kHz e amplitude de 5,0 Vpp (sem valor negativ
 
 ![inversor MOS](/Imagens/parte4/curvainveroramos.JPG)
 
-2 Obtenha o valor de RDS para esse transistor para esta condição de operação.
+2 Obtenha o valor de RDS para esse transistor para esta condição de operação e caso o sinal de entrada tenha(VIN) a amplitude reduzida para 2,5 V, qual o valor de RDS?
 
-3 Caso sinal de entrada tenha(VIN) a amplitude reduzida para 2,5 V, qual o valor de RDS?
+
+![inversor MOS](/Imagens/parte4/cálculords.jpg)
+
 
 4 Compare os resultados obtidos com a teoria.
+![inversor MOS](/Imagens/parte4/resultado1.jpg)
+
+![inversor MOS](/Imagens/parte4/resultado1.jpg)
+
+Conforme já esperando a tensão de entrada praticamente não se modificou ficando em 4,9999V. Desta forma podemos crer que resistência RDS é muito pequena quando comparada ao resistor R1. Com isso, a queda de tensão é mínima para ambos os casos, além de que o transistor parece operar apenas como chave e fazendo o processo de inversão da tensão de entrada.
